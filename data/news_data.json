@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Tensões aumentam na Península Coreana após novo teste de míssil",
+        "summary": "Coreia do Norte realiza teste de míssil balístico intercontinental, gerando condenação internacional e elevando tensões com Coreia do Sul e EUA.",
+        "sources": [
+            {
+                "label": "Reuters",
+                "url": "#"
+            },
+            {
+                "label": "Associated Press (AP)",
+                "url": "#"
+            }
+        ]
+    },
+    {
+        "title": "Acordo comercial entre União Europeia e Mercosul enfrenta novos obstáculos ambientais",
+        "summary": "Preocupações ambientais levantadas por países europeus continuam a travar a ratificação final do acordo comercial entre os blocos.",
+        "sources": [
+            {
+                "label": "Valor Econômico",
+                "url": "#"
+            },
+            {
+                "label": "Le Monde Diplomatique Brasil",
+                "url": "#"
+            }
+        ]
+    },
+    {
+        "title": "Cúpula da Liga Árabe discute crise humanitária na Síria e relações regionais",
+        "summary": "Líderes árabes se reúnem para debater a reintegração da Síria e buscar soluções para conflitos e crises econômicas na região.",
+        "sources": [
+            {
+                "label": "Al Jazeera",
+                "url": "#"
+            },
+            {
+                "label": "G1 - Mundo",
+                "url": "#"
+            }
+        ]
+    }
+]
