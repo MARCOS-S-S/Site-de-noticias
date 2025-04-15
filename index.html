@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Notícias de geopolítica com múltiplas fontes e perspectivas.">
+    <title>GeoNotícias - Perspectivas Múltiplas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <h1>GeoNotícias</h1>
+        <p>Análise geopolítica com fontes diversificadas</p>
+        <p class="update-info">Atualizado em: <span id="update-date">DD/MM/AAAA</span></p>
+    </header>
+
+    <main class="news-container">
+        <h2>Notícias do Dia</h2>
+
+        <article class="news-item">
+            <h3 class="news-title">Título da Notícia Geopolítica Principal</h3>
+            <p class="news-summary">
+                Um breve resumo (opcional) sobre o evento geopolítico em questão.
+                Este resumo pode ser gerado ou extraído posteriormente.
+            </p>
+            <div class="news-sources">
+                <h4>Fontes:</h4>
+                <div class="source">
+                    <span class="source-label">Fonte 1 (Ex: Reuters):</span>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="source-link source-1-link">Ver artigo
+                        completo</a>
+                </div>
+                <div class="source">
+                    <span class="source-label">Fonte 2 (Ex: Al Jazeera):</span>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="source-link source-2-link">Ver artigo
+                        completo</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="news-item">
+            <h3 class="news-title">Outro Acontecimento Internacional Relevante</h3>
+            <div class="news-sources">
+                <h4>Fontes:</h4>
+                <div class="source">
+                    <span class="source-label">Fonte A (Ex: BBC):</span>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="source-link source-1-link">Ver artigo
+                        completo</a>
+                </div>
+                <div class="source">
+                    <span class="source-label">Fonte B (Ex: Fox News):</span>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="source-link source-2-link">Ver artigo
+                        completo</a>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="current-year"></span> GeoNotícias. Código aberto no GitHub.</p>
+    </footer>
+
+    <script>
+        document.getElementById('update-date').textContent = new Date().toLocaleDateString('pt-BR');
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>
